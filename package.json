@@ -1,0 +1,16 @@
+{
+  "name": "amqp-sample",
+  "version": "1.0.0",
+  "description": "An example of how to use AMQP with NodeJS.",
+  "main": "index.js",
+  "author": "https://github.com/francis-li",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "dotenv": "^6.2.0"
+  },
+  "scripts": {
+    "publish": "node publish.js",
+    "consume": "node consume.js"
+  }
+}
